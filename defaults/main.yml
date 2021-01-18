@@ -1,2 +1,13 @@
 ---
 # defaults file for ansible-role-azure-cli
+
+azure_package_name: azure-cli
+
+repo_key_url:
+
+apt_packages:
+  - aptitude
+  - curl
+  - apt-transport-https
+  - gnupg
+
